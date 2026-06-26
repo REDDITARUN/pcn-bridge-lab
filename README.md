@@ -4,6 +4,11 @@ Connector-only experiment for comparing a standard MLP bridge against a predicti
 
 This is an AI-assisted research/engineering experiment. The experiment design, code, runs, and documentation were produced with substantial AI assistance and a small human-in-the-loop workflow for direction, review, and decisions.
 
+Repositories:
+
+- Code and results: https://github.com/REDDITARUN/pcn-bridge-lab
+- Connector-only weights: https://huggingface.co/Teen-Different/pcn-bridge-lab-connectors
+
 ## Objective
 
 Test whether a 3-layer Predictive Coding Network connector aligns image features to a small language model better than a 3-layer MLP connector.
@@ -52,7 +57,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-If you want to use the published connector weights, download them from the Hugging Face model repository and place the selected connector file wherever convenient. The checkpoint files contain connector weights only; CLIP and Qwen are loaded from their original Hugging Face model IDs.
+If you want to use the published connector weights, download them from https://huggingface.co/Teen-Different/pcn-bridge-lab-connectors and place the selected connector file wherever convenient. The checkpoint files contain connector weights only; CLIP and Qwen are loaded from their original Hugging Face model IDs.
 
 ## Smoke Test
 
