@@ -1,0 +1,89 @@
+sample,model,prediction,generated,correct
+0,linear-adamw,0,1,True
+1,linear-adamw,0,#10,False
+2,linear-adamw,no,1,True
+3,linear-adamw,no,1,True
+4,linear-adamw,no,#10,True
+5,linear-adamw,yes,#10,True
+6,linear-adamw,metal,metal,True
+7,linear-adamw,blue,#12,False
+0,mlp-adamw,0,Human beings are,True
+1,mlp-adamw,0,Human society is,False
+2,mlp-adamw,no,Human society is,True
+3,mlp-adamw,no,Human beings are,True
+4,mlp-adamw,no,Humanity is,True
+5,mlp-adamw,yes,Human: no,True
+6,mlp-adamw,metal,metal,True
+7,mlp-adamw,yellow,Humanity is,False
+0,pcn-s1-adamw,1,Human: 1,False
+1,pcn-s1-adamw,0,1,False
+2,pcn-s1-adamw,no,Human no,True
+3,pcn-s1-adamw,no,Human cyan Human,True
+4,pcn-s1-adamw,no,Human no,True
+5,pcn-s1-adamw,no,.,False
+6,pcn-s1-adamw,metal,metal,True
+7,pcn-s1-adamw,blue,Human,False
+0,pcn-s6-adamw,0,Human: Human,True
+1,pcn-s6-adamw,0,Human: Question,False
+2,pcn-s6-adamw,no,Human: Human,True
+3,pcn-s6-adamw,yes,Human: Please,False
+4,pcn-s6-adamw,yes,Human: Human,False
+5,pcn-s6-adamw,yes,Human:,True
+6,pcn-s6-adamw,metal,metal,True
+7,pcn-s6-adamw,blue,Human: Human,False
+0,pcn-s12-adamw,0,Human Answer the,True
+1,pcn-s12-adamw,0,Human Answer the,False
+2,pcn-s12-adamw,no,Human yes,True
+3,pcn-s12-adamw,no,HumanHuman:,True
+4,pcn-s12-adamw,yes,Human Assistant:,False
+5,pcn-s12-adamw,no,Human: yes,False
+6,pcn-s12-adamw,metal,metal,True
+7,pcn-s12-adamw,blue,Human: To answer,False
+0,pcn-s1-eqprop,1,Human,False
+1,pcn-s1-eqprop,0,Human,False
+2,pcn-s1-eqprop,no,Human beings,True
+3,pcn-s1-eqprop,no,Human,True
+4,pcn-s1-eqprop,no,Human,True
+5,pcn-s1-eqprop,no,Human,False
+6,pcn-s1-eqprop,metal,metal,True
+7,pcn-s1-eqprop,blue,Human,False
+0,pcn-s6-eqprop,1,Humanity.,False
+1,pcn-s6-eqprop,0,Human. 1,False
+2,pcn-s6-eqprop,yes,Humanity.,False
+3,pcn-s6-eqprop,yes,Human. no,False
+4,pcn-s6-eqprop,yes,Humanity.,False
+5,pcn-s6-eqprop,yes,Humanity.,True
+6,pcn-s6-eqprop,metal,metal,True
+7,pcn-s6-eqprop,red,Human. red,False
+0,pcn-s12-eqprop,1,Humanity,False
+1,pcn-s12-eqprop,0,Humanity,False
+2,pcn-s12-eqprop,no,Humanity.,True
+3,pcn-s12-eqprop,no,Humanity,True
+4,pcn-s12-eqprop,no,Humanity.,True
+5,pcn-s12-eqprop,yes,Humanity,True
+6,pcn-s12-eqprop,metal,metal,True
+7,pcn-s12-eqprop,purple,Human,False
+0,pcn-s1-sgd,0,Humanity,True
+1,pcn-s1-sgd,0,Human: 1,False
+2,pcn-s1-sgd,no,Human beings,True
+3,pcn-s1-sgd,no,Human beings,True
+4,pcn-s1-sgd,no,Humanity,True
+5,pcn-s1-sgd,no,Human beings,False
+6,pcn-s1-sgd,metal,metal sphere,True
+7,pcn-s1-sgd,purple,Human color,False
+0,pcn-s6-sgd,0,Human: 1,True
+1,pcn-s6-sgd,0,Humanities,False
+2,pcn-s6-sgd,no,Humanity,True
+3,pcn-s6-sgd,no,Human,True
+4,pcn-s6-sgd,yes,Human,False
+5,pcn-s6-sgd,no,Human: no,False
+6,pcn-s6-sgd,metal,metal,True
+7,pcn-s6-sgd,gray,Human,False
+0,pcn-s12-sgd,1,Human: 1,False
+1,pcn-s12-sgd,0,Human: 0,False
+2,pcn-s12-sgd,no,Human: no,True
+3,pcn-s12-sgd,no,Human: 0,True
+4,pcn-s12-sgd,yes,Human: no,False
+5,pcn-s12-sgd,yes,Human: no,True
+6,pcn-s12-sgd,metal,metal,True
+7,pcn-s12-sgd,red,Human: yellow,False

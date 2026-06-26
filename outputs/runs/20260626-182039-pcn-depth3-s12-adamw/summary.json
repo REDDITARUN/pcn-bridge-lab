@@ -1,0 +1,4 @@
+{
+  "best_checkpoint": "outputs/runs/20260626-182039-pcn-depth3-s12-adamw/checkpoint-epoch4.pt",
+  "best_validation_loss": 0.9758717722892761
+}

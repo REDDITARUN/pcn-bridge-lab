@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+
+# Dataset/cache artifacts
+outputs/cache/
+
+# Full training checkpoints include optimizer state and are published separately
+# as stripped connector-only weights on Hugging Face.
+outputs/runs/**/*.pt
+
+# Local HF export staging directory
+hf_export/

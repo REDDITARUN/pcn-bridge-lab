@@ -1,0 +1,89 @@
+sample,model,prediction,generated,correct
+0,linear-adamw,0,1,True
+1,linear-adamw,0,#10 ### 2016 AMC 12B Problems and Solutions • Question 1 • Problem 1 • solution,False
+2,linear-adamw,no,1,True
+3,linear-adamw,no,1,True
+4,linear-adamw,no,#10 ### A small cube and a small cylinder are shown in the figure below. Which of the following statements is true? a) The small,True
+5,linear-adamw,yes,#10 question 2 A solution of a substance is defined as one in which the amount of that substance is greater than or equal to,True
+6,linear-adamw,metal,metal,True
+7,linear-adamw,blue,"#12, #13, and #14 are not correct. The answer is ""blue"".",False
+0,mlp-adamw,0,Human beings are not a type of organism.,True
+1,mlp-adamw,0,Human society is a type of society that can be classified as human society. yes,False
+2,mlp-adamw,no,Human society is a large group of people who have different types of skills. humans are not the only species that can use metal. what is the most common,True
+3,mlp-adamw,no,Human beings are not able to use a tool.,True
+4,mlp-adamw,no,Humanity is a small group of people who have not eaten food. humans are more than 100% human. what is the most common type,True
+5,mlp-adamw,yes,Human: no human:yes rubber cylinder:yes metal:yes rubber rod:no rubber disk:yes rub,True
+6,mlp-adamw,metal,metal,True
+7,mlp-adamw,yellow,Humanity is a small group of people who have not eaten food. humans are more than 100% human. what is the most common type,False
+0,pcn-s1-adamw,1,Human: 1,False
+1,pcn-s1-adamw,0,1,False
+2,pcn-s1-adamw,no,Human no,True
+3,pcn-s1-adamw,no,Human cyan Human cyan is greater than 0.,True
+4,pcn-s1-adamw,no,Human no,True
+5,pcn-s1-adamw,no,.,False
+6,pcn-s1-adamw,metal,metal,True
+7,pcn-s1-adamw,blue,Human,False
+0,pcn-s6-adamw,0,Human: Human beings are not able to see the blue color in this image.,True
+1,pcn-s6-adamw,0,Human: Question: Which of the following is not a type of animal? A. fish B. bird C. rabbit D. cat Answer: d,False
+2,pcn-s6-adamw,no,Human: Human brain is made up of neurons and synapses. The neuron in the left hemisphere has a higher concentration of dopamine compared to the right one.,True
+3,pcn-s6-adamw,yes,Human: Please answer the following question about this story. In which section of the story would you find this news item? (A) science (B),False
+4,pcn-s6-adamw,yes,Human: Humanized question: What is the color of the small object in the middle of the list?,False
+5,pcn-s6-adamw,yes,Human: 1. yes 2. no The answer is 2. no. This is because the brown thing on the left side of the,True
+6,pcn-s6-adamw,metal,metal,True
+7,pcn-s6-adamw,blue,Human: Humanized text is a type of text that includes human language. Which of the following sentences is an example of humanized text? [closed],False
+0,pcn-s12-adamw,0,Human Answer the question with exactly one word. Yes or no. No answer will result in a grade of 0. Answer: yes,True
+1,pcn-s12-adamw,0,Human Answer the question with exactly one word. Yes or no. No.,False
+2,pcn-s12-adamw,no,Human yes,True
+3,pcn-s12-adamw,no,HumanHuman: 1. The answer is yes. 2. The answer is no. The answer is yes. I think it's a bit of a,True
+4,pcn-s12-adamw,yes,Human Assistant: no,False
+5,pcn-s12-adamw,no,Human: yes,False
+6,pcn-s12-adamw,metal,metal,True
+7,pcn-s12-adamw,blue,"Human: To answer this question, you need to understand the concept of relative motion. Relative motion means that two objects are moving in relation to each other and not",False
+0,pcn-s1-eqprop,1,Human,False
+1,pcn-s1-eqprop,0,Human,False
+2,pcn-s1-eqprop,no,Human beings,True
+3,pcn-s1-eqprop,no,Human,True
+4,pcn-s1-eqprop,no,Human,True
+5,pcn-s1-eqprop,no,Human,False
+6,pcn-s1-eqprop,metal,metal,True
+7,pcn-s1-eqprop,blue,Human,False
+0,pcn-s6-eqprop,1,Humanity.,False
+1,pcn-s6-eqprop,0,Human. 1,False
+2,pcn-s6-eqprop,yes,Humanity.,False
+3,pcn-s6-eqprop,yes,Human. no,False
+4,pcn-s6-eqprop,yes,Humanity.,False
+5,pcn-s6-eqprop,yes,Humanity.,True
+6,pcn-s6-eqprop,metal,metal,True
+7,pcn-s6-eqprop,red,Human. red,False
+0,pcn-s12-eqprop,1,Humanity,False
+1,pcn-s12-eqprop,0,Humanity,False
+2,pcn-s12-eqprop,no,Humanity.,True
+3,pcn-s12-eqprop,no,Humanity,True
+4,pcn-s12-eqprop,no,Humanity.,True
+5,pcn-s12-eqprop,yes,Humanity,True
+6,pcn-s12-eqprop,metal,metal,True
+7,pcn-s12-eqprop,purple,Human,False
+0,pcn-s1-sgd,0,Humanity,True
+1,pcn-s1-sgd,0,Human: 1,False
+2,pcn-s1-sgd,no,Human beings,True
+3,pcn-s1-sgd,no,Human beings,True
+4,pcn-s1-sgd,no,Humanity,True
+5,pcn-s1-sgd,no,Human beings,False
+6,pcn-s1-sgd,metal,metal sphere,True
+7,pcn-s1-sgd,purple,Human color,False
+0,pcn-s6-sgd,0,Human: 1,True
+1,pcn-s6-sgd,0,Humanities,False
+2,pcn-s6-sgd,no,Humanity,True
+3,pcn-s6-sgd,no,Human,True
+4,pcn-s6-sgd,yes,Human,False
+5,pcn-s6-sgd,no,Human: no,False
+6,pcn-s6-sgd,metal,metal,True
+7,pcn-s6-sgd,gray,Human,False
+0,pcn-s12-sgd,1,Human: 1,False
+1,pcn-s12-sgd,0,Human: 0,False
+2,pcn-s12-sgd,no,Human: no,True
+3,pcn-s12-sgd,no,Human: 0,True
+4,pcn-s12-sgd,yes,Human: no,False
+5,pcn-s12-sgd,yes,Human: no,True
+6,pcn-s12-sgd,metal,metal,True
+7,pcn-s12-sgd,red,Human: yellow,False

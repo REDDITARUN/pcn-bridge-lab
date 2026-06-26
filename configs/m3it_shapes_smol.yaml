@@ -1,0 +1,53 @@
+seed: 42
+output_dir: outputs/runs
+
+dataset:
+  kind: clevr
+  name: dpdl-benchmark/clevr
+  config: default
+  trust_remote_code: true
+  streaming: false
+  max_train_samples: 10000
+  max_eval_samples: 1000
+  cache_dir: outputs/cache/clevr
+
+models:
+  vision_name: openai/clip-vit-base-patch32
+  lm_name: Qwen/Qwen2.5-0.5B-Instruct
+  freeze_vision: true
+  freeze_lm: true
+
+connector:
+  type: mlp
+  num_visual_tokens: 8
+  hidden_dim: 768
+  depth: 3
+  settle_steps: 6
+  state_lr: 0.2
+  aux_energy_weight: 0.01
+  dropout: 0.05
+
+training:
+  epochs: 5
+  batch_size: 8
+  grad_accum_steps: 1
+  lr: 0.0002
+  weight_decay: 0.01
+  optimizer: adamw
+  max_grad_norm: 1.0
+  mixed_precision: bf16
+  num_workers: 4
+  log_every: 25
+  eval_every_epochs: 1
+  save_every_epochs: 1
+
+generation:
+  max_new_tokens: 8
+  do_sample: false
+
+eqprop:
+  beta: 0.1
+  lambda_settle: 0.01
+  momentum: 0.9
+  dampening: 0.0
+  nesterov: false

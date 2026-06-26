@@ -1,0 +1,4 @@
+{
+  "best_checkpoint": "outputs/runs/20260626-164259-linear-adamw/checkpoint-epoch4.pt",
+  "best_validation_loss": 0.9576670873165131
+}

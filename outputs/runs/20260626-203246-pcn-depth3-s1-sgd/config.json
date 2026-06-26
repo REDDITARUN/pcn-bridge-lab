@@ -1,0 +1,55 @@
+{
+  "connector": {
+    "aux_energy_weight": 0.01,
+    "depth": 3,
+    "dropout": 0.05,
+    "hidden_dim": 768,
+    "num_visual_tokens": 8,
+    "settle_steps": 1,
+    "state_lr": 0.2,
+    "type": "pcn"
+  },
+  "dataset": {
+    "cache_dir": "outputs/cache/clevr",
+    "config": "default",
+    "kind": "clevr",
+    "max_eval_samples": 1000,
+    "max_train_samples": 10000,
+    "name": "dpdl-benchmark/clevr",
+    "streaming": false,
+    "trust_remote_code": true
+  },
+  "eqprop": {
+    "beta": 0.1,
+    "dampening": 0.0,
+    "lambda_settle": 0.01,
+    "momentum": 0.9,
+    "nesterov": false
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 8
+  },
+  "models": {
+    "freeze_lm": true,
+    "freeze_vision": true,
+    "lm_name": "Qwen/Qwen2.5-0.5B-Instruct",
+    "vision_name": "openai/clip-vit-base-patch32"
+  },
+  "output_dir": "outputs/runs",
+  "seed": 42,
+  "training": {
+    "batch_size": 8,
+    "epochs": 5,
+    "eval_every_epochs": 1,
+    "grad_accum_steps": 1,
+    "log_every": 25,
+    "lr": 0.01,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "bf16",
+    "num_workers": 4,
+    "optimizer": "sgd",
+    "save_every_epochs": 1,
+    "weight_decay": 0.0001
+  }
+}

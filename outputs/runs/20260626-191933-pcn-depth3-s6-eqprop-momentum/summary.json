@@ -1,0 +1,4 @@
+{
+  "best_checkpoint": "outputs/runs/20260626-191933-pcn-depth3-s6-eqprop-momentum/checkpoint-epoch5.pt",
+  "best_validation_loss": 0.9812290871143341
+}
